@@ -1,7 +1,9 @@
 name: setup-project
 on: push 
 jobs:
+
 build:
+
   runs-on: ubuntu-latest
   steps:
     - uses: actions/checkoutv@4
